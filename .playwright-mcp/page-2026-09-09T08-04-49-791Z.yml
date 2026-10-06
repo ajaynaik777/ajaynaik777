@@ -1,0 +1,24 @@
+- generic [ref=f10e5]:
+  - generic [ref=f10e6]:
+    - generic [ref=f10e8]:
+      - generic [ref=f10e9]: Welcome to
+      - generic [ref=f10e10]: OCM
+      - generic [ref=f10e11]: Tetherfi Operations Control Manager (OCM) is an operational administration module enabling administrators and business operations to control and manage administrative elements across all Tetherfi solution offerings.
+    - generic [ref=f10e13]:
+      - generic [ref=f10e15]:
+        - combobox [ref=f10e17] [cursor=pointer]:
+          - generic [ref=f10e18]: ProdQATetherfi
+          - button "select" [ref=f10e20]:
+            - generic [ref=f10e21]: 
+        - textbox "Username" [ref=f10e26]
+        - generic [ref=f10e28]:
+          - textbox "Password" [ref=f10e31]
+          - generic "Show/Hide Password" [ref=f10e33] [cursor=pointer]: 
+        - button "Login" [ref=f10e35] [cursor=pointer]
+      - text:  􏏴
+  - generic [ref=f10e36]:
+    - generic [ref=f10e37]: Copyright Tetherfi © 2026 - v 7.15.0-beta.1
+    - generic [ref=f10e40]:
+      - generic [ref=f10e41]: 
+      - text: 09/09/2026, 13:34:49 Operations Control Manager
+      - generic "View OCM File Info" [ref=f10e42] [cursor=pointer]: 

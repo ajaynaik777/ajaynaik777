@@ -1,0 +1,323 @@
+- generic [active] [ref=f3e1]:
+  - generic:
+    - generic:
+      - link "Skip to main content" [ref=f3e2] [cursor=pointer]
+      - link "Accessibility help" [ref=f3e3] [cursor=pointer]:
+        - /url: https://support.google.com/websearch/answer/181196?hl=en-IN
+  - generic [ref=f3e8]:
+    - search [ref=f3e9]:
+      - generic [ref=f3e11]:
+        - link "Go to Google Home" [ref=f3e13] [cursor=pointer]:
+          - /url: https://www.google.com/webhp?hl=en&sa=X&ved=2ahUKEwjX2saI8uCWAxXpj-EIHUq3MVAQPHoECAYQBA
+        - generic [ref=f3e21]:
+          - generic [ref=f3e22]:
+            - combobox "Search" [ref=f3e25]: roboticQA roboticQA
+            - generic [ref=f3e26]:
+              - button "Clear" [ref=f3e28] [cursor=pointer]
+              - generic [ref=f3e33]:
+                - button "Search by voice" [ref=f3e34] [cursor=pointer]
+                - button "Search by image" [ref=f3e37] [cursor=pointer]
+          - button "Search" [ref=f3e40] [cursor=pointer]
+    - generic [ref=f3e45]:
+      - button "Settings" [ref=f3e47] [cursor=pointer]
+      - button "Share" [ref=f3e53] [cursor=pointer]
+      - generic [ref=f3e59]:
+        - button "Google apps" [ref=f3e61] [cursor=pointer]
+        - link "Sign in" [ref=f3e66] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.com/search%3Fq%3DroboticQA%26sca_esv%3Dbc33a129a45a7786%26sxsrf%3DAPpeQnvOPRBAqnaqWmUs35k7e7eHoioTcQ%253A1788936022512%26source%3Dhp%26ei%3DVv-gaqGWHrCohvcP99jT6QQ%26iflsig%3DABILxe8AAAAAaqENZmsi8CKp_VdHvh1aSsGZ3VsKfKHm%26ved%3D0ahUKEwihmZaB8uCWAxUwlOEIHXfsNE0Q4dUDCB0%26uact%3D5%26oq%3DroboticQA%26gs_lp%3DEgdnd3Mtd2l6Iglyb2JvdGljUUFImAJQAFgAcAB4AJABAJgBAKABAKoBALABALgBA8gBAPgBAZgCAKACAJgDAOIDBBgAIF3iAwQYACBe4gMEGAAgX-IDBBgAIGDiAwQYACBh4gMEGAAgYpIHAKAHALIHALgHAMIHAMgHAIAIAQ%26sclient%3Dgws-wiz%26sei%3DZf-gauXqCoaphvcP6dimgQk&ec=futura_srp_og_si_72236_p
+  - generic [ref=f3e69]:
+    - navigation [ref=f3e75]:
+      - generic [ref=f3e81]:
+        - list [ref=f3e82]:
+          - listitem [ref=f3e83]:
+            - link "AI Mode" [ref=f3e86] [cursor=pointer]:
+              - /url: /search?q=roboticQA&sca_esv=bc33a129a45a7786&sxsrf=APpeQnsI0p-L8Kg241oZzviW_AH8t93OkQ:1788936037976&udm=50&source=hp&fbs=ABfTbFVyMZGZf1hfvX9uKjN_-G8c4u0nXx4bEIpwm1lnNH832VstEKsVDqPorK0Gahnm2nq-aQnTz_mBV-EZYISbLc-S3LQBbMYAGT8xXTqdTxRg04zS3ruzpNYXVbY3kOqiLf6smpXTQP8rjLnjKrCQfi-AqT13sapd-gtfM0yiwEXK5lbXCsrpWPGBG3C4qHz7cxTzH6h9vVv3KHRF3_GaNL1fqCyG3w&vsint=&aep=1&ntc=1&cs=0&sa=X&ved=2ahUKEwjX2saI8uCWAxXpj-EIHUq3MVAQ2J8OegQIFhAD
+          - listitem [ref=f3e90]:
+            - link "All" [disabled] [ref=f3e91]
+          - listitem [ref=f3e94]:
+            - link "Images" [ref=f3e95] [cursor=pointer]:
+              - /url: /search?sca_esv=bc33a129a45a7786&sxsrf=APpeQnsI0p-L8Kg241oZzviW_AH8t93OkQ:1788936037976&udm=2&fbs=ABfTbFVyMZGZf1hfvX9uKjN_-G8c4u0nXx4bEIpwm1lnNH832VstEKsVDqPorK0Gahnm2nq-aQnTz_mBV-EZYISbLc-S3LQBbMYAGT8xXTqdTxRg04zS3ruzpNYXVbY3kOqiLf6smpXTQP8rjLnjKrCQfi-AqT13sapd-gtfM0yiwEXK5lbXCsrpWPGBG3C4qHz7cxTzH6h9vVv3KHRF3_GaNL1fqCyG3w&q=roboticQA&sa=X&ved=2ahUKEwjX2saI8uCWAxXpj-EIHUq3MVAQtKgLegQIGxAB
+          - listitem [ref=f3e98]:
+            - link "Videos" [ref=f3e99] [cursor=pointer]:
+              - /url: /search?sca_esv=bc33a129a45a7786&sxsrf=APpeQnsI0p-L8Kg241oZzviW_AH8t93OkQ:1788936037976&udm=7&fbs=ABfTbFVyMZGZf1hfvX9uKjN_-G8c4u0nXx4bEIpwm1lnNH832VstEKsVDqPorK0Gahnm2nq-aQnTz_mBV-EZYISbLc-S3LQBbMYAGT8xXTqdTxRg04zS3ruzpNYXVbY3kOqiLf6smpXTQP8rjLnjKrCQfi-AqT13sapd-gtfM0yiwEXK5lbXCsrpWPGBG3C4qHz7cxTzH6h9vVv3KHRF3_GaNL1fqCyG3w&q=roboticQA&sa=X&ved=2ahUKEwjX2saI8uCWAxXpj-EIHUq3MVAQtKgLegQIGhAB
+          - listitem [ref=f3e102]:
+            - link "Shopping" [ref=f3e103] [cursor=pointer]:
+              - /url: /search?sca_esv=bc33a129a45a7786&sxsrf=APpeQnsI0p-L8Kg241oZzviW_AH8t93OkQ:1788936037976&udm=28&fbs=ABfTbFVyMZGZf1hfvX9uKjN_-G8c4u0nXx4bEIpwm1lnNH832VstEKsVDqPorK0Gahnm2nq-aQnTz_mBV-EZYISbLc-S3LQBbMYAGT8xXTqdTxRg04zS3ruzpNYXVbY3kOqiLf6smpXTQP8rjLnjKrCQfi-AqT13sapd-gtfM0yiwEXK5lbXCsrpWPGBG3C4qHz7cxTzH6h9vVv3KHRF3_GaNL1fqCyG3w&q=roboticQA&ved=1t:220175&ictx=111
+          - listitem [ref=f3e106]:
+            - link "News" [ref=f3e107] [cursor=pointer]:
+              - /url: /search?sca_esv=bc33a129a45a7786&sxsrf=APpeQnsI0p-L8Kg241oZzviW_AH8t93OkQ:1788936037976&q=roboticQA&tbm=nws&source=lnms&fbs=ABfTbFVyMZGZf1hfvX9uKjN_-G8c4u0nXx4bEIpwm1lnNH832VstEKsVDqPorK0Gahnm2nq-aQnTz_mBV-EZYISbLc-S3LQBbMYAGT8xXTqdTxRg04zS3ruzpNYXVbY3kOqiLf6smpXTQP8rjLnjKrCQfi-AqT13sapd-gtfM0yiwEXK5lbXCsrpWPGBG3C4qHz7cxTzH6h9vVv3KHRF3_GaNL1fqCyG3w&sa=X&ved=2ahUKEwjX2saI8uCWAxXpj-EIHUq3MVAQ0pQJegQIGRAB
+          - listitem [ref=f3e110]:
+            - link "Forums" [ref=f3e111] [cursor=pointer]:
+              - /url: /search?sca_esv=bc33a129a45a7786&sxsrf=APpeQnsI0p-L8Kg241oZzviW_AH8t93OkQ:1788936037976&udm=forums&fbs=ABfTbFVyMZGZf1hfvX9uKjN_-G8c4u0nXx4bEIpwm1lnNH832VstEKsVDqPorK0Gahnm2nq-aQnTz_mBV-EZYISbLc-S3LQBbMYAGT8xXTqdTxRg04zS3ruzpNYXVbY3kOqiLf6smpXTQP8rjLnjKrCQfi-AqT13sapd-gtfM0yiwEXK5lbXCsrpWPGBG3C4qHz7cxTzH6h9vVv3KHRF3_GaNL1fqCyG3w&q=roboticQA&sa=X&ved=2ahUKEwjX2saI8uCWAxXpj-EIHUq3MVAQs6gLegQIGBAB
+          - listitem [ref=f3e114]:
+            - button [ref=f3e115] [cursor=pointer]:
+              - generic "More filters" [ref=f3e116]: More
+        - button "Tools" [ref=f3e123] [cursor=pointer]
+    - heading "Search Results" [level=1] [ref=f3e131]
+    - main [ref=f3e133]:
+      - generic [ref=f3e137]:
+        - generic [ref=f3e140]:
+          - heading "Web results" [level=2] [ref=f3e141]
+          - generic [ref=f3e142]:
+            - generic [ref=f3e145]:
+              - link "RoboticQA Academy YouTube · RoboticQA Academy 1.7K+ followers" [ref=f3e147] [cursor=pointer]:
+                - /url: /goto?url=CAEScAHrOzAVv8ajT-3GS0ofrBKfbnuuCdw64ZNo44p2WItp-5k8wmJEps-aGf0TBc324kgllI3OZLfGq-VVvSq8oDRVxFGXEAOKSgACA5kFWq4mPKeadO1HJyK9kS4yHamw4ES-04ZHm7kNOiaW6kZqlok
+                - heading "RoboticQA Academy" [level=3] [ref=f3e148]
+                - generic [ref=f3e154]:
+                  - generic [ref=f3e155]: YouTube · RoboticQA Academy
+                  - generic [ref=f3e157]: 1.7K+ followers
+              - button "About this result" [ref=f3e163] [cursor=pointer]
+            - link [aria-hidden] [ref=f3e170] [cursor=pointer]:
+              - /url: /goto?url=CAEScAHrOzAVv8ajT-3GS0ofrBKfbnuuCdw64ZNo44p2WItp-5k8wmJEps-aGf0TBc324kgllI3OZLfGq-VVvSq8oDRVxFGXEAOKSgACA5kFWq4mPKeadO1HJyK9kS4yHamw4ES-04ZHm7kNOiaW6kZqlok
+            - generic [ref=f3e175]:
+              - text: RoboticQA Academy –
+              - emphasis [ref=f3e176]: Master AI-Powered Test Automation
+              - text: "! Master AI Coding, Chat, and Agent Mode. Modern AI Tools for Test Automation … covers everything from ** ..."
+        - generic [ref=f3e177]:
+          - generic [ref=f3e188]:
+            - heading "Searching Thinking a little longer" [level=2] [ref=f3e192]:
+              - generic [ref=f3e193]:
+                - generic [ref=f3e194]: Searching
+                - generic [ref=f3e204]: Thinking a little longer
+            - progressbar "Generating" [ref=f3e207]
+          - generic [ref=f3e264]:
+            - generic [ref=f3e267]:
+              - link "RoboticQA YouTube · RoboticQA Academy 70+ views · 4 years ago" [ref=f3e269] [cursor=pointer]:
+                - /url: /goto?url=CAESYwHrOzAVu7IPRMzOt756VajUaQHkrO7ZtR4rzD0B85kC1ZxamO12SMsgLze0oWiycNBHPT2tWynICQhx0cHd7bPnnKMo6kQlV1JwLTABN2d-EBrGDhwbvjLUd3DZ6NrHF1YgSg
+                - heading "RoboticQA" [level=3] [ref=f3e270]
+                - generic [ref=f3e276]:
+                  - generic [ref=f3e277]: YouTube · RoboticQA Academy
+                  - generic [ref=f3e279]: 70+ views · 4 years ago
+              - button "About this result" [ref=f3e285] [cursor=pointer]
+            - generic [ref=f3e290]:
+              - button "RoboticQA by RoboticQA Academy on YouTube. Play on Google. 0:09" [ref=f3e291] [cursor=pointer]:
+                - generic [ref=f3e292]: 0:09
+              - generic [ref=f3e305]: Welcome to RoboticQA – Your Ultimate Guide to Automation Testing! your go-to channel for mastering Automation Testing Tools. we provide high- ...
+          - generic [ref=f3e310]:
+            - generic [ref=f3e313]:
+              - link "Roboticqa Test Automation | Pune Facebook · Roboticqa Test Automation 1.3K+ followers" [ref=f3e315] [cursor=pointer]:
+                - /url: /goto?url=CAESaAHrOzAV0cNIPNTuzMFgeTeb4CuNtIJBxH9h4-1hqnmtyqgErqpHqbxlQb91pHfhy_g8UaT9RXINWDU9L85GTjbE1tdEHuiwDCC8rRoEKxaiYP2kDgIFMJV7nzzdjLDHFIrVhK-3Dk7m
+                - heading "Roboticqa Test Automation | Pune" [level=3] [ref=f3e316]
+                - generic [ref=f3e322]:
+                  - generic [ref=f3e323]: Facebook · Roboticqa Test Automation
+                  - generic [ref=f3e325]: 1.3K+ followers
+              - button "About this result" [ref=f3e331] [cursor=pointer]
+            - generic [ref=f3e338]:
+              - text: Sharing the best of Selenium, Playwright, AI in Testing & more 🎯
+              - emphasis [ref=f3e339]: Tips, tutorials, and coding hacks for modern QA & SDET
+              - text: 📚 Learn smarter. Automate everything.
+          - generic [ref=f3e343]:
+            - generic [ref=f3e346]:
+              - link "Robotiqa — Enterprise Architecture & AI Governance Robotiqa https://www.robotiqa.com" [ref=f3e348] [cursor=pointer]:
+                - /url: /goto?url=CAESUQHrOzAVMarSgE8sGFfGMQy2lc2PCZEZKG0IwlZSp8XCUY4NiIPZto26NptkenILXiPhbQkHDrZ8DgFOT90Kd14Wylx8T2QRyUT2V985KwfOeA
+                - heading "Robotiqa — Enterprise Architecture & AI Governance" [level=3] [ref=f3e349]
+                - generic [ref=f3e355]:
+                  - generic [ref=f3e356]: Robotiqa
+                  - generic [ref=f3e358]: https://www.robotiqa.com
+              - button "About this result" [ref=f3e364] [cursor=pointer]
+            - generic [ref=f3e371]:
+              - text: Robotiqa is
+              - emphasis [ref=f3e372]: an independent enterprise architecture and AI governance practice
+              - text: . It works with banks, government bodies, and custodians of authoritative records
+          - generic [ref=f3e376]:
+            - generic [ref=f3e379]:
+              - link "Learn Roboticqa - Free Courses and Lessons CourseHive https://coursehive.io › learn › roboticqa" [ref=f3e381] [cursor=pointer]:
+                - /url: /goto?url=CAESXQHrOzAVPRrw1Y5eCIrS65_tEa0917WRQoR9K3AVnFdyKyCV-ZqCqo-TxkO7ZCjf0tv7NM5RqwFEkKS-CQ_OarPMY2vycl-Ux00Aqm144dpQs-uXk5DJ4xRB-pjuVA
+                - heading "Learn Roboticqa - Free Courses and Lessons" [level=3] [ref=f3e382]
+                - generic [ref=f3e388]:
+                  - generic [ref=f3e389]: CourseHive
+                  - generic [ref=f3e391]: https://coursehive.io › learn › roboticqa
+              - button "About this result" [ref=f3e397] [cursor=pointer]
+            - generic [ref=f3e404]:
+              - text: Explore free
+              - emphasis [ref=f3e405]: Roboticqa
+              - text: courses, lessons, transcripts, key concepts, and related learning paths on CourseHive.
+          - generic [ref=f3e409]:
+            - generic [ref=f3e411]:
+              - heading "Videos" [level=2] [ref=f3e412]
+              - button "About this result" [ref=f3e417] [cursor=pointer]
+            - generic [ref=f3e423]:
+              - generic [ref=f3e430]:
+                - generic [ref=f3e431]:
+                  - link [ref=f3e433] [cursor=pointer]:
+                    - /url: /goto?url=CAESYgHrOzAVQlUTb3EDbQBAirC7lGXa4_rjlQBOHuW__XvMuC_dcu6-YyzgQeiw6dBedmSuXzDULJZc27GrAxJgrxrXTnouOI1CtvjHtdXom8107ohrupcqqO2es7YvmeTZDh00
+                    - heading "Top 10 Automation Tools Testers MUST Learn in 2025! ... YouTube RoboticQA Academy 5 Jul 2025" [level=3] [ref=f3e434]:
+                      - generic [ref=f3e435]: Top 10 Automation Tools Testers MUST Learn in 2025! ...
+                      - generic [ref=f3e439]:
+                        - generic [ref=f3e440]:
+                          - text: YouTube
+                          - generic [ref=f3e441]: · RoboticQA Academy
+                        - generic [ref=f3e442]: 5 Jul 2025
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic [aria-hidden]:
+                            - text: YouTube
+                            - generic: · RoboticQA Academy
+                      - button "About this result" [ref=f3e446] [cursor=pointer]
+                - button "Top 10 Automation Tools Testers MUST Learn in 2025! ... by RoboticQA Academy on YouTube. Play on Google. 0:55" [ref=f3e451] [cursor=pointer]:
+                  - generic [ref=f3e461]: 0:55
+              - generic [ref=f3e473]:
+                - generic [ref=f3e474]:
+                  - link [ref=f3e476] [cursor=pointer]:
+                    - /url: /goto?url=CAESYgHrOzAVpVnPLX-bS2GZ-Xq7aQxHAuZ8fbrVyJ6yYCo7X-NzUoJ7nr4eaZMzWzxxQlYzg-zHRUoefHS2JM2LF4dzggEG31zt1fP3V2UwQcKjzmuPDFt96houlV1DZUxYvCzP
+                    - 'heading "#RoboticQA TestNG Full Course #testng #selenium ... YouTube RoboticQA Academy 18 Jul 2025" [level=3] [ref=f3e477]':
+                      - generic [ref=f3e478]: "#RoboticQA TestNG Full Course #testng #selenium ..."
+                      - generic [ref=f3e482]:
+                        - generic [ref=f3e483]:
+                          - text: YouTube
+                          - generic [ref=f3e484]: · RoboticQA Academy
+                        - generic [ref=f3e485]: 18 Jul 2025
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic [aria-hidden]:
+                            - text: YouTube
+                            - generic: · RoboticQA Academy
+                      - button "About this result" [ref=f3e489] [cursor=pointer]
+                - 'button "#RoboticQA TestNG Full Course #testng #selenium ... by RoboticQA Academy on YouTube. Play on Google. 0:42" [ref=f3e494] [cursor=pointer]':
+                  - generic [ref=f3e504]: 0:42
+              - generic [ref=f3e515]:
+                - generic [ref=f3e516]:
+                  - link [ref=f3e518] [cursor=pointer]:
+                    - /url: /goto?url=CAESYgHrOzAVcQHXqP4_pxVXkySAIe16Dcq25tngEhl3BTU-HOFNxIgYhbRyeqv47ln2QQw1M5pFFh1LvF1MNE9ze3xR2F27IKW_j8yvfPmB4yqs4ywJwzesyDv5hNsqrcXnftgy
+                    - 'heading "What is Playwright? #roboticqa #programming #testautomation ... YouTube RoboticQA Academy 28 Jun 2025" [level=3] [ref=f3e519]':
+                      - generic [ref=f3e520]: "What is Playwright? #roboticqa #programming #testautomation ..."
+                      - generic [ref=f3e524]:
+                        - generic [ref=f3e525]:
+                          - text: YouTube
+                          - generic [ref=f3e526]: · RoboticQA Academy
+                        - generic [ref=f3e527]: 28 Jun 2025
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic [aria-hidden]:
+                            - text: YouTube
+                            - generic: · RoboticQA Academy
+                      - button "About this result" [ref=f3e531] [cursor=pointer]
+                - 'button "What is Playwright? #roboticqa #programming #testautomation ... by RoboticQA Academy on YouTube. Play on Google. 0:37" [ref=f3e536] [cursor=pointer]':
+                  - generic [ref=f3e543]: 0:37
+              - generic [ref=f3e555]:
+                - generic [ref=f3e556]:
+                  - link [ref=f3e558] [cursor=pointer]:
+                    - /url: /goto?url=CAESYgHrOzAVzbYWzjEBXwYY6JQVwTtOMJqzSHY5s-qXJNufLFmL34VZbUKfy8NmXfuseuW47NY_YgD6iACKHJ5SB2UTiOKqvws3NNQupUS06nP91K9FJz6nezYLzHopkHoZoHTq
+                    - heading "Let AI Write Your Test Cases with Playwright MCP! ... YouTube RoboticQA Academy 9 Jul 2025" [level=3] [ref=f3e559]:
+                      - generic [ref=f3e560]: Let AI Write Your Test Cases with Playwright MCP! ...
+                      - generic [ref=f3e564]:
+                        - generic [ref=f3e565]:
+                          - text: YouTube
+                          - generic [ref=f3e566]: · RoboticQA Academy
+                        - generic [ref=f3e567]: 9 Jul 2025
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic [aria-hidden]:
+                            - text: YouTube
+                            - generic: · RoboticQA Academy
+                      - button "About this result" [ref=f3e571] [cursor=pointer]
+                - button "Let AI Write Your Test Cases with Playwright MCP! ... by RoboticQA Academy on YouTube. Play on Google. 0:26" [ref=f3e576] [cursor=pointer]:
+                  - generic [ref=f3e586]: 0:26
+            - link "View all videos" [ref=f3e594] [cursor=pointer]:
+              - /url: /search?sca_esv=bc33a129a45a7786&udm=7&sxsrf=APpeQnsI0p-L8Kg241oZzviW_AH8t93OkQ:1788936037976&q=roboticQA&sa=X&ved=2ahUKEwjX2saI8uCWAxXpj-EIHUq3MVAQ8ccDKAJ6BAg0EAU
+              - separator [aria-hidden] [ref=f3e595]
+              - generic [ref=f3e596]: View all
+          - generic [ref=f3e604]:
+            - generic [ref=f3e607]:
+              - link "RoboticQA Academy YouTube https://www.youtube.com › @roboticqa › posts" [ref=f3e609] [cursor=pointer]:
+                - /url: /goto?url=CAESYAHrOzAVvhn2PQojirV3ujha763xY9FgNLPfu1tLd3L40osRUsCnuLh1Crz033ksoz4Y4hsrDldrzFHE8VWKHO9-lLRF0DzGU42yV_KltaM58ttAlnwNUmfOcVFTaVz3eQ
+                - heading "RoboticQA Academy" [level=3] [ref=f3e610]
+                - generic [ref=f3e616]:
+                  - generic [ref=f3e617]: YouTube
+                  - generic [ref=f3e619]: https://www.youtube.com › @roboticqa › posts
+              - button "About this result" [ref=f3e625] [cursor=pointer]
+            - generic [ref=f3e632]:
+              - text: 1.65K subscribers•127 videos
+              - emphasis [ref=f3e633]: RoboticQA Academy
+              - text: – Master AI-Powered Test Automation! We just hit 299 subscribers—one step closer to 300! Page Object Model (POM) ...
+          - generic [ref=f3e637]:
+            - generic [ref=f3e640]:
+              - link "Santosh Hawle - Lead QA Automation Engineer LinkedIn · Santosh Hawle 1.1K+ followers" [ref=f3e642] [cursor=pointer]:
+                - /url: /goto?url=CAESXwHrOzAVvh6CQatzb1BXfvI8aOtWtc_-g0RFoi8LnMGv5Ao1tLuWL-gFOVNXBNy2jk4flRz90QVrpc1iBNF373Y2oMcT2dNDIT4DO6TlyDNYhOMUbkLQwUb3VU2eBPWL
+                - heading "Santosh Hawle - Lead QA Automation Engineer" [level=3] [ref=f3e643]
+                - generic [ref=f3e649]:
+                  - generic [ref=f3e650]: LinkedIn · Santosh Hawle
+                  - generic [ref=f3e652]: 1.1K+ followers
+              - button "About this result" [ref=f3e658] [cursor=pointer]
+            - generic [ref=f3e663]:
+              - generic [ref=f3e664]: Pune Division, Maharashtra, India · Lead Software Test Automation Engineer · EPAM Systems
+              - generic [ref=f3e665]:
+                - generic [ref=f3e666]:
+                  - emphasis [ref=f3e667]: Specialized in architecting scalable UI and API automation frameworks
+                  - text: from scratch using Selenium (Java), Playwright (TypeScript), and Rest Assured. Strong ...
+                - link "Read more" [ref=f3e668] [cursor=pointer]:
+                  - /url: /goto?url=CAESyQEB6zswFXN-vo9Dbidv4lQBXtWi9AgytK5eJ4B14SCyfXNGVhMgbLxaNLRHqqHECyHvUOsq5PR5bcb3wEmun-V5WNGHvsElmoYLgmmstzf4GcNc624FxYQd0xS-jp6kSaz6Faa-UBnDvJKWLwC24k8zuO2bXs2AofalUF4NWlZeukYFeD1YNSWqR4c-IQu5L_WAGMk_CkabMfSXALNoupmFAwAhXqXO9qa_V56e95u4sw8hXVQmt8viRysTXtF-K8R6f65WkrQ4Ql4
+          - generic [ref=f3e672]:
+            - generic [ref=f3e675]:
+              - link "Mobile app testing framework and Device park. RobotQA https://robotqa.com" [ref=f3e677] [cursor=pointer]:
+                - /url: /goto?url=CAESTAHrOzAVXnTgOdc3Wq9HyECIj_UD4-p2xKEOPOb-HHFYhztKEWJxxw6HPQEIDxDzsNhrk9wSohoYkxxOTPYKY15bTLxrtiBCT7_4pYY
+                - heading "Mobile app testing framework and Device park." [level=3] [ref=f3e678]
+                - generic [ref=f3e684]:
+                  - generic [ref=f3e685]: RobotQA
+                  - generic [ref=f3e687]: https://robotqa.com
+              - button "About this result" [ref=f3e693] [cursor=pointer]
+            - generic [ref=f3e698]: RobotQA helps you test your mobile hybrid and native applications on Android and iOS platforms. We have a Device park to run application tests.
+      - navigation [ref=f3e702]:
+        - heading "Page navigation" [level=1] [ref=f3e703]
+        - text: "1"
+        - link "Page 2" [ref=f3e706] [cursor=pointer]:
+          - /url: /search?q=roboticQA&sca_esv=bc33a129a45a7786&sxsrf=APpeQnsI0p-L8Kg241oZzviW_AH8t93OkQ:1788936037976&ei=Zf-gapeUO-mfhvcPyu7GgQU&start=10&sa=N&sstk=AS6-VmIGk_JZ2ejvBy3a1oizKsynZkY6xGBeCli3fs8LlhgNL7I7mYhbjgDF092vWXf-xwrne_jzs9coF4vVjYh7b11WmkDyHOCB9A&ved=2ahUKEwjX2saI8uCWAxXpj-EIHUq3MVAQ8tMDegQIHhAE
+          - text: "2"
+        - link "Page 3" [ref=f3e708] [cursor=pointer]:
+          - /url: /search?q=roboticQA&sca_esv=bc33a129a45a7786&sxsrf=APpeQnsI0p-L8Kg241oZzviW_AH8t93OkQ:1788936037976&ei=Zf-gapeUO-mfhvcPyu7GgQU&start=20&sa=N&sstk=AS6-VmIGk_JZ2ejvBy3a1oizKsynZkY6xGBeCli3fs8LlhgNL7I7mYhbjgDF092vWXf-xwrne_jzs9coF4vVjYh7b11WmkDyHOCB9A&ved=2ahUKEwjX2saI8uCWAxXpj-EIHUq3MVAQ8tMDegQIHhAG
+          - text: "3"
+        - link "Page 4" [ref=f3e710] [cursor=pointer]:
+          - /url: /search?q=roboticQA&sca_esv=bc33a129a45a7786&sxsrf=APpeQnsI0p-L8Kg241oZzviW_AH8t93OkQ:1788936037976&ei=Zf-gapeUO-mfhvcPyu7GgQU&start=30&sa=N&sstk=AS6-VmIGk_JZ2ejvBy3a1oizKsynZkY6xGBeCli3fs8LlhgNL7I7mYhbjgDF092vWXf-xwrne_jzs9coF4vVjYh7b11WmkDyHOCB9A&ved=2ahUKEwjX2saI8uCWAxXpj-EIHUq3MVAQ8tMDegQIHhAI
+          - text: "4"
+        - link "Page 5" [ref=f3e712] [cursor=pointer]:
+          - /url: /search?q=roboticQA&sca_esv=bc33a129a45a7786&sxsrf=APpeQnsI0p-L8Kg241oZzviW_AH8t93OkQ:1788936037976&ei=Zf-gapeUO-mfhvcPyu7GgQU&start=40&sa=N&sstk=AS6-VmIGk_JZ2ejvBy3a1oizKsynZkY6xGBeCli3fs8LlhgNL7I7mYhbjgDF092vWXf-xwrne_jzs9coF4vVjYh7b11WmkDyHOCB9A&ved=2ahUKEwjX2saI8uCWAxXpj-EIHUq3MVAQ8tMDegQIHhAK
+          - text: "5"
+        - link "Page 6" [ref=f3e714] [cursor=pointer]:
+          - /url: /search?q=roboticQA&sca_esv=bc33a129a45a7786&sxsrf=APpeQnsI0p-L8Kg241oZzviW_AH8t93OkQ:1788936037976&ei=Zf-gapeUO-mfhvcPyu7GgQU&start=50&sa=N&sstk=AS6-VmIGk_JZ2ejvBy3a1oizKsynZkY6xGBeCli3fs8LlhgNL7I7mYhbjgDF092vWXf-xwrne_jzs9coF4vVjYh7b11WmkDyHOCB9A&ved=2ahUKEwjX2saI8uCWAxXpj-EIHUq3MVAQ8tMDegQIHhAM
+          - text: "6"
+        - link "Page 7" [ref=f3e716] [cursor=pointer]:
+          - /url: /search?q=roboticQA&sca_esv=bc33a129a45a7786&sxsrf=APpeQnsI0p-L8Kg241oZzviW_AH8t93OkQ:1788936037976&ei=Zf-gapeUO-mfhvcPyu7GgQU&start=60&sa=N&sstk=AS6-VmIGk_JZ2ejvBy3a1oizKsynZkY6xGBeCli3fs8LlhgNL7I7mYhbjgDF092vWXf-xwrne_jzs9coF4vVjYh7b11WmkDyHOCB9A&ved=2ahUKEwjX2saI8uCWAxXpj-EIHUq3MVAQ8tMDegQIHhAO
+          - text: "7"
+        - link "Page 8" [ref=f3e718] [cursor=pointer]:
+          - /url: /search?q=roboticQA&sca_esv=bc33a129a45a7786&sxsrf=APpeQnsI0p-L8Kg241oZzviW_AH8t93OkQ:1788936037976&ei=Zf-gapeUO-mfhvcPyu7GgQU&start=70&sa=N&sstk=AS6-VmIGk_JZ2ejvBy3a1oizKsynZkY6xGBeCli3fs8LlhgNL7I7mYhbjgDF092vWXf-xwrne_jzs9coF4vVjYh7b11WmkDyHOCB9A&ved=2ahUKEwjX2saI8uCWAxXpj-EIHUq3MVAQ8tMDegQIHhAQ
+          - text: "8"
+        - link "Page 9" [ref=f3e720] [cursor=pointer]:
+          - /url: /search?q=roboticQA&sca_esv=bc33a129a45a7786&sxsrf=APpeQnsI0p-L8Kg241oZzviW_AH8t93OkQ:1788936037976&ei=Zf-gapeUO-mfhvcPyu7GgQU&start=80&sa=N&sstk=AS6-VmIGk_JZ2ejvBy3a1oizKsynZkY6xGBeCli3fs8LlhgNL7I7mYhbjgDF092vWXf-xwrne_jzs9coF4vVjYh7b11WmkDyHOCB9A&ved=2ahUKEwjX2saI8uCWAxXpj-EIHUq3MVAQ8tMDegQIHhAS
+          - text: "9"
+        - link "Page 10" [ref=f3e722] [cursor=pointer]:
+          - /url: /search?q=roboticQA&sca_esv=bc33a129a45a7786&sxsrf=APpeQnsI0p-L8Kg241oZzviW_AH8t93OkQ:1788936037976&ei=Zf-gapeUO-mfhvcPyu7GgQU&start=90&sa=N&sstk=AS6-VmIGk_JZ2ejvBy3a1oizKsynZkY6xGBeCli3fs8LlhgNL7I7mYhbjgDF092vWXf-xwrne_jzs9coF4vVjYh7b11WmkDyHOCB9A&ved=2ahUKEwjX2saI8uCWAxXpj-EIHUq3MVAQ8tMDegQIHhAU
+          - text: "10"
+        - heading [level=2] [ref=f3e724]:
+          - link "Next" [ref=f3e725] [cursor=pointer]:
+            - /url: /search?q=roboticQA&sca_esv=bc33a129a45a7786&sxsrf=APpeQnsI0p-L8Kg241oZzviW_AH8t93OkQ:1788936037976&ei=Zf-gapeUO-mfhvcPyu7GgQU&start=10&sa=N&sstk=AS6-VmIGk_JZ2ejvBy3a1oizKsynZkY6xGBeCli3fs8LlhgNL7I7mYhbjgDF092vWXf-xwrne_jzs9coF4vVjYh7b11WmkDyHOCB9A&ved=2ahUKEwjX2saI8uCWAxXpj-EIHUq3MVAQ8NMDegQIHhAW
+      - navigation
+    - contentinfo [ref=f3e728]:
+      - heading "Footer links" [level=1] [ref=f3e729]
+      - generic [ref=f3e733]:
+        - generic [ref=f3e735]:
+          - text: India
+          - generic [ref=f3e737]:
+            - button "574239, Karnataka - From your IP address" [ref=f3e739] [cursor=pointer]:
+              - generic [ref=f3e740]: 574239, Karnataka
+              - generic [ref=f3e742]:
+                - text: "-"
+                - generic [ref=f3e743]: From your IP address
+            - text: "-"
+            - button "Update location" [ref=f3e745] [cursor=pointer]
+        - generic [ref=f3e748]:
+          - link "Help" [ref=f3e749] [cursor=pointer]:
+            - /url: https://support.google.com/websearch/?p=ws_results_help&hl=en-IN&fg=1
+          - link "Send feedback" [ref=f3e750] [cursor=pointer]:
+            - /url: "#"
+          - link "Privacy" [ref=f3e751] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy?hl=en-IN&fg=1
+          - link "Terms" [ref=f3e752] [cursor=pointer]:
+            - /url: https://policies.google.com/terms?hl=en-IN&fg=1
